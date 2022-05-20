@@ -1,0 +1,127 @@
+<!-- 
+    Designed By: Kelvin
+    Email: k3lvinding@gmail,com
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kelvin Ding - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="jumbotron">
+        <section>
+          <h1>Personal Portfolio</h1>
+          <h1>Kelvin Ding</h1>
+          <p>Product Owner | Backend Developer</p>
+        </section>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End of Header Section -->
+
+    <!-- Main Content Section -->
+    <main>
+      <div id="content">
+        <article id="about-me" class="card">
+          <h2>About Me</h2>
+          <img
+            src="https://storage.googleapis.com/profile-app-img/about-me.jpeg"
+            alt="about-me"
+            class="image"
+          />
+          <p>
+            Hi, this is Kelvin, an introverted person who loves to communicate.
+            His current role is as a Product Owner who works closely with the
+            Project Manager, System Analyst, Engineer, and end user at Team
+            Agile. He is good at analyzing system requirements and defining
+            business processes. Even though he is working on the non-technical
+            side, he also learns a fair amount of the basics of programming
+            language such as Javascript, Python, and PHP, also learn more about
+            NodeJs and basics framework frontend like ReactJs. He is also good
+            at Mandarin, English, and Indonesia language.
+          </p>
+        </article>
+        <article id="portfolio" class="card">
+          <h2>Portfolio</h2>
+          <img
+            src="https://storage.googleapis.com/profile-app-img/portfolio.png"
+            alt="portfolio"
+            class="image"
+          />
+          <p>Game Guess My Number with Javascript</p>
+          <!-- <p>
+            <a
+              href="halaman/portfolio"
+              style="text-decoration: none; float: right"
+              target="_blank"
+              >Play The Game</a
+            >
+          </p> -->
+        </article>
+      </div>
+
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2>Profile</h2>
+            <figure>
+              <img
+                src="https://storage.googleapis.com/profile-app-img/Photo.png"
+                alt="Kelvin"
+                style="width: 150px"
+              />
+              <figcaption>Kelvin Ding</figcaption>
+              <p><a href="#" class="show-modal">Detail</a></p>
+            </figure>
+            <section>
+              <a href="#"
+                ><img
+                  style="width: 50px"
+                  src="https://storage.googleapis.com/profile-app-img/linkedin-icon.png"
+                  alt="Linked In"
+              /></a>
+              <a href="#"
+                ><img
+                  style="width: 50px"
+                  src="https://storage.googleapis.com/profile-app-img/github-icon.png"
+                  alt="Github"
+              /></a>
+            </section>
+          </header>
+        </article>
+      </aside>
+    </main>
+    <!-- End of main Content Section -->
+
+    <!-- Footer -->
+    <footer>
+      <p>Copyright &copy; 2022</p>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Modal -->
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>My Profile</h1>
+      <img src="assets/img/Photo.png" alt="Kelvin" style="width: 150px" />
+      <section>
+        <p>Nama: Kelvin</p>
+        <p>Birthdate: 26 April 2000</p>
+        <p>Profession: Backend Engineer</p>
+        <p>Skill: Javascript, PHP, Python, CSS, HTML</p>
+      </section>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+  <script src="/javascripts/script.js"></script>
+</html>
